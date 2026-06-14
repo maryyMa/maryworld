@@ -1,3 +1,8 @@
+---
+name: tech-writer
+description: 生成 Android 和 AI 技术文章。当用户提到"写技术文章"、"生成技术文档"、"Android 开发"、"AI 技术"、"机器学习"、"深度学习"时使用。
+---
+
 # 技术文档生成 Skill
 
 ## 功能描述
@@ -30,6 +35,14 @@
 4. 保存到 `writing-tool/drafts/` 目录
 5. 可选：自动同步到博客
 
+## 模板位置
+- Android 模板: `writing-tool/templates/android-article.md`
+- AI 模板: `writing-tool/templates/ai-article.md`
+
+## 输出目录
+- 草稿目录: `writing-tool/drafts/`
+- 博客目录: `blog/source/_posts/`
+
 ## 示例
 
 ### 输入
@@ -46,7 +59,8 @@
 ### 输出
 生成一篇完整的 Jetpack Compose 状态管理文章，包含代码示例和最佳实践。
 
-## 配置
-- 模板位置：`writing-tool/templates/`
-- 输出目录：`writing-tool/drafts/`
-- 博客目录：`blog/source/_posts/`
+## 注意事项
+- 代码示例要完整可运行
+- 使用中文撰写
+- 遵循技术文档规范
+- 保持简洁清晰的风格
