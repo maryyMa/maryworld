@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+public/
+.deploy*/
+
+# Hexo
+db.json
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Drafts
+writing-tool/drafts/*.md
+!writing-tool/drafts/.gitkeep

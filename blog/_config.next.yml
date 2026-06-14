@@ -1,0 +1,152 @@
+# NexT Theme Configuration
+# Docs: https://theme-next.js.org/
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+# Schemes
+# scheme: Muse
+# scheme: Mist
+# scheme: Pisces
+scheme: Gemini
+
+# ---------------------------------------------------------------
+# Font Settings
+# ---------------------------------------------------------------
+font:
+  enable: true
+  host: https://fonts.googleapis.com
+  global:
+    external: true
+    family: Lato
+    size:
+  title:
+    external: true
+    family:
+    size:
+  headings:
+    external: true
+    family:
+    size:
+  posts:
+    external: true
+    family:
+    size:
+  codes:
+    external: true
+    family:
+    size:
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  about: /about/ || fa fa-user
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+# Code Highlight theme
+# Available values: normal | night | night eighties | night blue | night bright
+# See: https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night eighties
+prism:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# ---------------------------------------------------------------
+# Social Links
+# ---------------------------------------------------------------
+# Key is the link label showing to menu
+# Value is the target link (E.g. GitHub: https://github.com/your-name)
+social:
+  GitHub: https://github.com/maryyMa || fab fa-github
+  # E-Mail: mailto:your@example.com || fa fa-envelope
+  # Weibo: https://weibo.com/your-name || fab fa-weibo
+  # Google: https://plus.google.com/your-name || fab fa-google
+  # Twitter: https://twitter.com/your-name || fab fa-twitter
+  # FB Page: https://www.facebook.com/your-name || fab fa-facebook
+  # StackOverflow: https://stackoverflow.com/your-name || fab fa-stack-overflow
+  # YouTube: https://youtube.com/your-name || fab fa-youtube
+  # Instagram: https://instagram.com/your-name || fab fa-instagram
+  # Skype: skype:your-name?call|chat || fab fa-skype
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+# Set true to enable Avatar
+avatar:
+  url: /images/avatar.gif
+  rounded: true
+  rotated: false
+
+# Automatically excerpt description in home page
+auto_excerpt:
+  enable: true
+  length: 150
+
+# Post meta display settings
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+# Change headers order on SEO
+seo: true
+
+# If true, will add site-subtitle to index page
+index_with_subtitle: true
+
+# ---------------------------------------------------------------
+# Tags Settings
+# ---------------------------------------------------------------
+# TagCloud
+tagcloud:
+  min: 12
+  max: 30
+  amount: 200
+  orderby: name
+  order: 1
+
+# ---------------------------------------------------------------
+# Back to top
+# ---------------------------------------------------------------
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# ---------------------------------------------------------------
+# Reading Progress
+# ---------------------------------------------------------------
+reading_progress:
+  enable: true
+  position: top
+  color: "#37c6c0"
+  height: 3px
+
+# ---------------------------------------------------------------
+# GitHub Banner
+# ---------------------------------------------------------------
+# `Follow me on GitHub` banner in the top-right corner.
+github_banner:
+  enable: true
+  permalink: https://github.com/maryyMa/maryworld
+  title: Follow me on GitHub
