@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(npx hexo *)",
+      "Bash(curl -s https://blog.1oner.cn/)"
     ]
   }
 }
