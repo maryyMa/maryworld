@@ -3,6 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+avatar: /maryworld/images/avatar.png
 title: Mary's Blog
 subtitle: 'Android & AI 技术博客'
 description: '分享 Android 全栈开发和 AI 技术的学习笔记'
